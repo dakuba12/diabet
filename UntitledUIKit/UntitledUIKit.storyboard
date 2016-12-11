@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="screen-2-VC">
+    <dependencies>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+<!--Screen 2-->
+        <scene sceneID="screen-2-Scene">
+            <objects>
+                <viewController restorationIdentifier="screen2" storyboardIdentifier="screen2" id="screen-2-VC" userLabel="Screen 2" sceneMemberID="viewController" customClass="APScreen2" customModuleProvider="target">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="screen-2-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="screen-2-Bottom"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="screen-2" >
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <constraints>
+        </constraints>
+                                <connections>
+                                </connections>
+</view>
+                    <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesNavBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesStatusBar" value="NO"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="lightStatusBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="screen-2-FR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0" y="0"/>
+        </scene>
+    </scenes>
+    
+</document>
